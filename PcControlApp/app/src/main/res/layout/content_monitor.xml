@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="businessapp.technorbit.shree.pccontrolapp.MonitorActivity"
+    tools:showIn="@layout/activity_monitor">
+
+
+    <businessapp.technorbit.shree.pccontrolapp.TouchImageView
+        android:id="@+id/img"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textViewAbortInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connection Aborted by remote Host"
+        android:textSize="20dp" />
+
+</RelativeLayout>

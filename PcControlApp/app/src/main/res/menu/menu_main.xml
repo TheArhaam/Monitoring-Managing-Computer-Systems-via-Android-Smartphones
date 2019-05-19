@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="businessapp.technorbit.shree.pccontrolapp.MainActivity">
+
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="@string/Left_Click"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item2"
+        android:title="@string/Rigth_Click"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item3"
+        android:title="@string/Double_Click"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item4"
+        android:title="@string/No_Action"
+        app:showAsAction="always" />
+
+</menu>

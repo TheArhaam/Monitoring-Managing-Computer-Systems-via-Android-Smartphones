@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PcControlApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_monitor">MonitorActivity</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="Left_Click">Left Click</string>
+    <string name="Rigth_Click">Right Click</string>
+    <string name="Double_Click">Double Click</string>
+    <string name="No_Action">No Action</string>
+    <string name="title_activity_ip">IpActivity</string>
+</resources>
